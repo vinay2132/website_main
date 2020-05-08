@@ -1,0 +1,63 @@
+@media (max-width:1200px){
+    header .content .landing-rotate{
+        width: 90%;
+        bottom: -30%;
+    }
+    header .landing-page h1{
+        font-size: 6vmin;
+    }
+    header .landing-slider-parent{
+        width: 100%;
+    }
+    header .landing-slider{
+        clip-path: polygon(30% 0, 100% 0, 100% 75%, 70% 100%, 0 100%, 0 25%);
+    }
+}
+@media (max-width:950px){
+    header .landing-slider{
+        clip-path: polygon(20% 0, 100% 0, 100% 75%, 80% 100%, 0 100%, 0 25%);
+    }
+    header .landing-slider-parent .slider-btn{
+        top: 80%;
+        left: 80%;
+        transform: rotate(320deg) !important;
+    }
+    nav .navbar-toggler .img-fluid{
+        width: 3vmin;
+        margin-right: 0.5rem !important;
+    }
+}
+@media (max-width:768px){
+    header .content .landing-rotate{
+        width: 80%;
+        top: 70%;
+        left: 10%;
+    }
+    nav .nav-item{
+        margin: 0 !important;
+    }
+    header .landing-page [class*=col-]:first-child img{
+        display: none !important;
+    }
+    header .landing-page h1{
+        font-size: 8vmin;
+    }
+    nav .navbar-toggler .img-fluid{
+        width: 3.5vmin;
+    }
+}
+@media (max-width:500px){
+    header .content .landing-rotate{
+        width: 80%;
+        top: 80%;
+        left: 10%;
+    }
+    nav .navbar-toggler .img-fluid{
+        width: 5vmin;
+    }
+}
+@media (max-width:400px){
+    header .landing-page ul li{
+        font-size: 10px;
+    }
+}
