@@ -21,6 +21,7 @@ header{
     background-position: top;
     background-repeat: no-repeat; */
     position: relative;
+    background: #f7fafc !important;
 }
 header:after{
     content: '';
@@ -31,7 +32,7 @@ header:after{
     height: 100%;
     background:#0098d61a;
     clip-path: polygon(100% 0%, 100% 40%, 40% 100%, 0 100%);
-    z-index: -1;
+    z-index: 1;
     opacity: 0.8;
 }
 header:before{
@@ -42,7 +43,7 @@ header:before{
     width: 25vmin;
     height: 25vmin;
     background:#0099d611;
-    z-index: -1;
+    z-index: 1;
     animation: ani-rotate 20s linear infinite;
 }
 header .landing-page{
@@ -164,13 +165,13 @@ header .content .landing-rotate{
     }
 }
 nav{
-    padding: 0.5rem 5rem!important;
+    padding: 0 1rem!important;
     position: fixed !important;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
     background: white;
 }
 nav img{
