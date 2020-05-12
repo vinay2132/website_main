@@ -50,9 +50,9 @@ flashing();
 
 // dropdown animation
 $('.navbar .dropdown').hover(function () {
-    $(this).find('.dropdown-menu').first().stop(true, true).delay(10).slideDown();
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown(100);
 }, function () {
-    $(this).find('.dropdown-menu').first().stop(true, true).delay(10).slideUp()
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp(100);
 });
 
 // landing slider
