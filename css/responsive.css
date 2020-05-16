@@ -1,4 +1,17 @@
 @media (max-width:1200px){
+    header nav{
+        padding: 0.2rem 1rem !important;
+    }
+    header nav img{
+        width: 175px;
+    }
+    header nav *{
+        font-size: 15px !important;
+    }
+    header nav .nav-item{
+        margin: 0 !important;
+        margin-right: 5px !important;
+    }
     header .content .landing-rotate{
         width: 90%;
         bottom: -30%;
@@ -33,6 +46,9 @@
         top: 70%;
         left: 10%;
     }
+    nav .logo{
+        width: 200px !important;
+    }
     nav .nav-item{
         margin: 0 !important;
     }
@@ -45,12 +61,40 @@
     nav .navbar-toggler .img-fluid{
         width: 3.5vmin;
     }
+    footer:before{
+        background: url("../assets/backgrounds/footer-back.png") !important;
+        background-size: cover !important;
+        background-position: bottom right !important;
+        background-repeat: no-repeat !important;
+    }
+    footer .footer-col.one img{
+        width: 200px;
+        margin-bottom: 0.5rem;
+    }
+    footer .footer-col.one div:last-child{
+        margin-bottom: 1.5rem !important;
+    }
+    footer .footer-col.three h3{
+        margin-top: 1.5rem !important;
+    }
+    footer .footer-col.three input{
+        margin-bottom: 0 !important;
+    }
+    footer .footer-col.three p{
+        margin-top: 2rem !important;
+    }
+    footer .footer-col.three div{
+        margin-bottom: 1.5rem !important;
+    }
 }
 @media (max-width:500px){
     header .content .landing-rotate{
         width: 80%;
         top: 80%;
         left: 10%;
+    }
+    header .landing-page a{
+        font-size: 14px !important;
     }
     nav .navbar-toggler .img-fluid{
         width: 5vmin;
