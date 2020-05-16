@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>contact page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="handle.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        select:required:invalid {
+            color: #666;
+        }
+        
+        option[value=""][disabled] {
+            display: none;
+        }
+        
+        option {
+            color: #000;
+        }
+    </style>
+    <meta name="google-signin-client_id" content="395673274757-i0m8kqh7eir7n1fb6jvafinf962jn57p.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+
+    <form action="signindetails.php" style="max-width:500px;margin:auto" method="POST">
+        <h2>Please Register </h2>
+        <br>
+        <br>
+        <div class="input-container11">
+            <i class="fa fa-user icon11"></i>
+            <input class="input-field11" type="text" placeholder="Username" name="username" required>
+        </div>
+
+        <div class="input-container11">
+            <i class="fa fa-envelope icon11"></i>
+            <input class="input-field11" type="text" placeholder="Email" name="email" required>
+        </div>
+        <div class="input-container11">
+            <i class="fa fa-unlock-alt icon11"></i>
+            <input class="input-field11" type="text" placeholder="Phone No" name="phone" required>
+        </div>
+        <div class="input-container11">
+            <i class="fa fa-unlock-alt icon11"></i>
+            <input class="input-field11" type="password" placeholder="Password" name="psw" required>
+        </div>
+        <div class="input-container11">
+            <i class="fa fa-unlock-alt icon11"></i>
+            <input class="input-field11" type="password" placeholder="Repeat Password" name="pswrep" required>
+        </div>
+
+        <button type="submit" class="btn11">Register</button>
+    </form>
