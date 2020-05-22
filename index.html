@@ -109,12 +109,28 @@
                         <div class="col-lg-6 col-md-6 col-12">
                             <h3>Login to Robo Kalam</h3>
                             <i class="far fa-times-circle close" data-dismiss="modal"></i>
-                            <form action="">
-                                <input type="text" placeholder="Username" class="form-control">
-                                <input type="password" placeholder="Password" class="form-control">
+                            <form  action="valid.php" method="post">
+                                <input type="text" placeholder="Username"  name="email" class="form-control" required>
+                                <input type="passwo" placeholder="Password" name="psw" class="form-control" required>
                                 <div>
-                                    <a href="#" class="text-primary">Forgot Password ?</a>
+                                    <a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Forgotpassword?</a>
                                 </div>
+								<div id="id02" class="modal">
+
+                        <form class="modal-content animate" action="forgotvalid.php" method="post">
+
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+                            </div>
+                            <div class="container">
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+
+                                <button type="submit">Login</button>
+
+                            </div>
+							</form>
                                 <div>
                                     <!-- <input type="button" value="Close" data-dismiss="modal" class="btn btn-sm btn-dark"> -->
                                     <input type="submit" value="Log In" class="btn btn-sm btn-dark">
