@@ -83,15 +83,58 @@
                         </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <form class="form-inline my-2 my-lg-0 d-flex align-items-center">
                     <div class="search_field">
                         <input type="text" name="" id="" placeholder="What are you looking for?">
                         <i class="fas fa-search"></i>
                     </div>
                 </form>
+
+                <div class="ml-3">
+                    <a data-toggle="modal" data-target="#login"><i class="fas fa-robot"
+                            style="font-size: 18px;"></i></a>
+                </div>
             </div>
         </nav>
         <!-- navbar -->
+        <!-- login signup -->
+        <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img src="./assets/backgrounds/robot-play1.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <h3>Login to Robo Kalam</h3>
+                            <i class="far fa-times-circle close" data-dismiss="modal"></i>
+                            <form action="">
+                                <input type="text" placeholder="Username" class="form-control">
+                                <input type="password" placeholder="Password" class="form-control">
+                                <div>
+                                    <a href="#" class="text-primary">Forgot Password ?</a>
+                                </div>
+                                <div>
+                                    <!-- <input type="button" value="Close" data-dismiss="modal" class="btn btn-sm btn-dark"> -->
+                                    <input type="submit" value="Log In" class="btn btn-sm btn-dark">
+                                </div>
+                                <hr class="my-3">
+                                <p class="signup-text m-0 text-center">Don't have an account? <a href="#">Sign Up</a>
+                                </p>
+                                <center style="font-size: 14px;">or</center>
+                                <p class="social-head text-center" style="font-size:14px">Login with</p>
+                                <div class="social-group">
+                                    <img src="./assets/icons/google.svg" class="img-fluid" alt="">
+                                    <img src="./assets/icons/instagram.svg" class="img-fluid" alt="">
+                                    <img src="./assets/icons/linkedin.svg" class="img-fluid" alt="">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
         <!-- landing page -->
         <div class="container-fluid landing-page">
             <div class="row">
@@ -145,7 +188,162 @@
         <!-- landing page ends -->
     </header>
     <main>
-        <div class="section-1"></div>
+        <div class="section-1 about-us">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <h1>One goal One mission</h1>
+                        <p>
+                            Create tools that educators and mentors will use to shape the learners of today into the
+                            problem solving leaders of Tomorrow
+                        </p>
+                        <p>
+                            Envision a world where every student has the opportunity to be inspired by the excitement og
+                            hands-on STEM learning and knows the feeling of creating something with technology. We want
+                            people of all ages and backgrounds to that creative problem solving is fun and see its
+                            importance in shaping a better future.
+                        </p>
+                        <a href="#" class="mt-4">About US</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="image-group">
+                            <img src="./assets/backgrounds/about1.jpg" class="img-fluid one" alt="">
+                            <img src="./assets/backgrounds/about2.jfif" class="img-fluid two" alt="">
+                            <img src="./assets/backgrounds/about3.jpg" class="img-fluid three" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row counts justify-content-center">
+                    <div class="col-12">
+                        <div class="counts-inner">
+                            <h1>12+</h1>
+                            <p>Dedicated Centers in India</p>
+                        </div>
+                        <div class="counts-inner">
+                            <h1>12+</h1>
+                            <p>Dedicated Centers in India</p>
+                        </div>
+                        <div class="counts-inner">
+                            <h1>12+</h1>
+                            <p>Dedicated Centers in India</p>
+                        </div>
+                        <div class="counts-inner">
+                            <h1>12+</h1>
+                            <p>Dedicated Centers in India</p>
+                        </div>
+                        <div class="counts-inner">
+                            <h1>12+</h1>
+                            <p>Dedicated Centers in India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================== -->
+        <!-- Upcoming Events -->
+        <!-- ========================================== -->
+        <div class="section-2 upcomingEvents container-fluid text-center">
+            <h1>Upcoming Events</h1>
+
+            <!-- slider -->
+            <div class="event-slider">
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    </div>
+                    <h5>Electro Ashaers</h5>
+                    <p class="text-muted">
+                        By creating a safe, consistant & welcoming environment, we help
+                    </p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span>20-05-2020</span>
+                        <a href="#" class="btn btn-sm btn-dark">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    </div>
+                    <h5>Robo Ashaers</h5>
+                    <p class="text-muted">
+                        With a balence of self-directed play and thoughtful teacher
+                    </p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span>20-05-2020</span>
+                        <a href="#" class="btn btn-sm btn-dark">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    </div>
+                    <h5>CODO Ashaers</h5>
+                    <p class="text-muted">
+                        A small class size & exceptional teachers enable Smarty to offer
+                    </p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span>20-05-2020</span>
+                        <a href="#" class="btn btn-sm btn-dark">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrap">
+                        <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    </div>
+                    <h5>Advance Ashaers</h5>
+                    <p class="text-muted">
+                        Our school follows the guidelines of local school district in order to
+                    </p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <span>20-05-2020</span>
+                        <a href="#" class="btn btn-sm btn-dark">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    <h5>Event Title</h5>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis.
+                    </p>
+                    <div class="d-flex">
+                        <span>20-05-2020</span>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    <h5>Event Title</h5>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis.
+                    </p>
+                    <div class="d-flex">
+                        <span>20-05-2020</span>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/backgrounds/about2.jfif" class="img-fluid" alt="">
+                    <h5>Event Title</h5>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis.
+                    </p>
+                    <div class="d-flex">
+                        <span>20-05-2020</span>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-btn">
+                <span class="prev btn"><i class="fas fa-arrow-left"></i></span>
+                <span class="next btn"><i class="fas fa-arrow-right"></i></span>
+            </div>
+
+        </div>
+        <!-- ========================================== -->
+        <!-- Upcoming Events Ends -->
+        <!-- ========================================== -->
     </main>
     <footer>
         <div class="container">
